@@ -5,7 +5,4 @@ const NotFound = () =>  (
         <h2>Not Found!?!!111!!!!</h2>
     </div>
 )
-
-
-
 export default NotFound;

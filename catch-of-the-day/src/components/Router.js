@@ -11,7 +11,7 @@ const Router = () => (
         <Switch>
             {/* Each Route tag indicates which path routes to which component */}
             <Route exact path="/" component={StorePicker} />
-            <Route exact path="/store/:storeid" component={App} />
+            <Route exact path="/store/:storeId" component={App} />
             <Route component={NotFound} />
         </Switch>
     </BrowserRouter>
