@@ -7,14 +7,18 @@ import Inventory from './Inventory'
 class App extends React.Component {
     render() {
         return (
+            <React.Fragment>
                 <div className="catch-of-the-day">
                     <div className="menu">
                         <Header tagline="Fresh Seafood Market" />
+                    </div>
                         <Order />
                         <Inventory /> 
-                    </div>
                 </div>
-        )
+
+
+            </React.Fragment>
+        );
     }
 }
 
