@@ -11,12 +11,8 @@ class App extends React.Component {
           <div className="menu">
             <Header tagline="Fresh Seafood Market" />
           </div>
-          {/* <div className=""> */}
           <Order />
-          {/* </div> */}
-          {/* <div className=""> */}
           <Inventory />
-          {/* </div> */}
         </div>
       </React.Fragment>
     );
