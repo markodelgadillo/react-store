@@ -9,7 +9,9 @@ class StorePicker extends React.Component {
   // property with an arrow function
   goToStore = e => {
     e.preventDefault();
-    console.log(this);
+    console.log(this.myInput.current.value);
+    const storeName = this.myInput.current.value;
+    this.props.history.push(`/store/${storeName}`);
   };
 
   //   // method that will run before the storepicke component is created
